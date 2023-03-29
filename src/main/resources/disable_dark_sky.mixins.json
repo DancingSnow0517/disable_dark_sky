@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.dancingsnow.disable_dark_sky.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "disable_dark_sky.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "ClientLevelMixin",
+    "FogRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
